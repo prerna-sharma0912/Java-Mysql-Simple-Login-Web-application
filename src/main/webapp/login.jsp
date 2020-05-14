@@ -13,7 +13,7 @@
 	if (rs.next()) 
 		{ 
 			session.setAttribute("userid", userName); 
-			response.sendRedirect("success.jsp")
+			response.sendRedirect("success.jsp");
 		} 
 	else 
 		{ 
